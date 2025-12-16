@@ -40,13 +40,13 @@
         {
             "Titulo": "Jugo de Bouye",
             "Descripcion": "Bebida energética hecha del fruto del baobab, común en los mercados de Ambilobe.",
-            "Imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuBljLSjAA-3Siqd2ET7CXJov244WDaC7ChCq7uzYWsivLiBLUc_l5jjxP9s_57RJB-QHqggOzZtGjntLaIi7GNPiByR3IVWDGmq-0D_rj_2r3J9nKRIlH_L1hDSEAX8VkTVny6u_1MizbNwj9ICTv2PvPfDZvjDM1skQfQ345QCZR4WSoIHaZnW6uznIW5fG1vQTw5FK37DdzZ4a0lKR7U5LqWvnLIvc1WLimJ2H7OBQCZBscdv4OC1wiRf-rTeJCpI7T9j0CVHGD0",
+            "Imagen": "https://github.com/Jhontan200/Prueba_JSON/blob/main/imagenes/bouye.jpg",
             "Alt": "Baobab fruit used in local juices"
         },
         {
             "Titulo": "Romazava Real",
             "Descripcion": "El plato nacional preparado con carne de cebú y hojas verdes 'brédes'.",
-            "Imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuCDdrCkDXHJmHh8nggOJrWWaTx_7a0uI9IzfGh0O_yqmSUbL0NVMYt0UVSONOxyagiV5Tlai4AvqbPTthvDLQ_Eta3yGhQzMc39wyiazYYWJx0JplXEZwxl0R74i79AGZxn-MsAnHNufgLL3wyMFWUz74dr_lWFgYs7ghJlqNCPXCUekpk96WlFMm8_NqL4nhKKBl0xqvoyUyNfGwZ6cc-vg6dsTu_nedyQyBV6IIjd5ZcFV7fdQ3ljdW8HjdyAJ9QHn1A25NHtIgQ",
+            "Imagen": "https://github.com/Jhontan200/Prueba_JSON/blob/main/imagenes/romazava.jpg",
             "Alt": "Traditional Romazava stew"
         }
     ],
