@@ -1,0 +1,70 @@
+.halftone-pattern {
+    background-image: radial-gradient(circle, #cbd5e1 2px, transparent 2.5px);
+    background-size: 24px 24px;
+}
+
+.dark .halftone-pattern {
+    background-image: radial-gradient(circle, #374151 2px, transparent 2.5px);
+    background-size: 24px 24px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #EF4444;
+    border: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b91c1c;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+/* --- SOLUCIÓN: IZQUIERDA FIJA, DERECHA CON SCROLL --- */
+
+.modal-panel {
+    max-height: 85vh; /* Altura fija para el modal */
+    display: flex !important;
+    flex-direction: column;
+    overflow: hidden; /* Evita el scroll en el contenedor padre */
+}
+
+@media (min-width: 768px) {
+    .modal-panel {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    /* Columna de la Imagen: Tamaño fijo y sin scroll */
+    .modal-panel > div:first-child {
+        flex: 0 0 45%; /* Ancho fijo del 45% */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    /* Columna de Información: La única que hace scroll */
+    .modal-panel > div:last-child {
+        flex: 1;
+        overflow-y: auto; /* Solo esta parte se mueve */
+        max-height: 95vh;
+        padding-right: 10px; /* Espacio para el scrollbar */
+    }
+}
+
+#modal-1-powers-list,
+#modal-2-powers-list,
+#modal-3-powers-list {
+    transition: max-height 0.5s ease-in-out;
+    /* Ya no es necesario el padding-bottom grande aquí */
+}

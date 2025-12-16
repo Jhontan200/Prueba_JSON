@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Avenida de los Baobabs</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&amp;family=Noto+Sans:wght@400;500;700;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#256af4",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Be Vietnam Pro", "sans-serif"],
+                        "body": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white font-display overflow-x-hidden antialiased selection:bg-primary selection:text-white">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root">
+        <header
+            class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e6e8eb] dark:border-b-[#222f49] bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-6 lg:px-10 py-3">
+            <div class="flex items-center gap-4 text-[#111418] dark:text-white">
+                <div class="size-8 flex items-center justify-center rounded-lg bg-primary/10 text-primary">
+                    <span class="material-symbols-outlined">nature</span>
+                </div>
+                <h2 class="text-[#111418] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Avenida
+                    de los Baobabs</h2>
+            </div>
+            <div class="hidden lg:flex flex-1 justify-end gap-8">
+                <div class="flex items-center gap-9">
+                    <a class="text-[#111418] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors"
+                        href="#overview">Descripción</a>
+                    <a class="text-[#111418] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors"
+                        href="#location">Ubicación</a>
+                    <a class="text-[#111418] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors"
+                        href="#highlights">Curiosidades</a>
+                    <a class="text-[#111418] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors"
+                        href="#practical">Info Práctica</a>
+                </div>
+                <button
+                    class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary hover:bg-primary/90 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em]">
+                    <span class="truncate">Planear Visita</span>
+                </button>
+            </div>
+            <div class="lg:hidden">
+                <span class="material-symbols-outlined text-[#111418] dark:text-white cursor-pointer">menu</span>
+            </div>
+        </header>
+        <div class="layout-container flex h-full grow flex-col">
+            <div class="@container w-full">
+                <div class="relative flex min-h-[85vh] flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-4 lg:p-20"
+                    data-alt="Stunning sunset view of massive baobab trees in Madagascar"
+                    style='background-image: linear-gradient(rgba(16, 22, 34, 0.3) 0%, rgba(16, 22, 34, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDQBk5JqfEXsdRV2gP1jkkAd2yVXMZoZBuiaORaLzNNnzYVv_LXgdzAm86OoSnAtIGEdMjAs5zy9rORXzKQRHHhJsO56fCl9xtPH0vpCN6csB4l13ieNFqb3wy3q5IgllMIQtkFYFlak4vPclK8Qd1e3Zi_m1sRJaKY3qim5tQgb_2oKlzoW3VixBZ8yejjyOHiRVvrJ9iaZCqUyfH1Z8EHlSkTHfUA_EV5VACUh5oNteeuegv53gjOMbuYmC246FtH9gXVsBrPQ3U");'>
+                    <div class="flex flex-col gap-6 text-center max-w-[800px] animate-fade-in-up">
+                        <span
+                            class="inline-flex items-center justify-center self-center rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-sm border border-white/10 mb-2">
+                            Original: Allée des Baobabs
+                        </span>
+                        <h1 class="text-white text-5xl lg:text-7xl font-black leading-[1.1] tracking-[-0.033em]">
+                            Avenida de los Baobabs
+                        </h1>
+                        <h2 class="text-white/90 text-lg lg:text-xl font-normal leading-relaxed max-w-2xl mx-auto">
+                            Descubre la majestuosa grandeza de los gigantes antiguos de Madagascar. Una avenida de
+                            centinelas esperando contar su historia.
+                        </h2>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center mt-4">
+                            <button
+                                class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary hover:bg-primary/90 transition-all hover:scale-105 text-white text-base font-bold leading-normal tracking-[0.015em] shadow-lg shadow-primary/20">
+                                <span class="truncate">Planear Visita</span>
+                            </button>
+                            <button
+                                class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white text-base font-bold leading-normal transition-all">
+                                <span class="truncate">Ver Galería</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-white/50">
+                        <span class="material-symbols-outlined">keyboard_arrow_down</span>
+                    </div>
+                </div>
+            </div>
+            <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[1000px] flex-1">
+                    <section
+                        class="flex flex-col lg:flex-row gap-12 py-16 lg:py-24 border-b border-[#e6e8eb] dark:border-[#222f49]"
+                        id="overview">
+                        <div class="flex flex-col gap-6 flex-1">
+                            <div
+                                class="flex items-center gap-2 text-primary font-bold tracking-wider uppercase text-sm">
+                                <span class="material-symbols-outlined text-lg">info</span>
+                                <span>Descripción General</span>
+                            </div>
+                            <h2
+                                class="text-[#111418] dark:text-white text-4xl font-bold leading-tight tracking-[-0.033em]">
+                                El legado de los densos bosques tropicales.
+                            </h2>
+                            <div class="flex flex-col gap-4 text-[#637588] dark:text-[#93adc8] text-lg leading-relaxed">
+                                <p>
+                                    La Avenida de los Baobabs es un conjunto impresionante de árboles baobab que bordean
+                                    el camino de tierra entre Morondava y Belon'i Tsiribihina en la región de Menabe, en
+                                    el oeste de Madagascar.
+                                </p>
+                                <p>
+                                    Conocida originalmente como <span
+                                        class="text-[#111418] dark:text-white font-medium">Allée des Baobabs</span>, es
+                                    uno de los lugares más visitados de la región. Su belleza única atrae a viajeros de
+                                    todo el mundo para presenciar estos gigantes naturales.
+                                </p>
+                            </div>
+                            <div class="grid grid-cols-2 gap-4 mt-4">
+                                <div
+                                    class="p-4 rounded-xl bg-background-light dark:bg-[#1a2230] border border-[#e6e8eb] dark:border-[#222f49]">
+                                    <div class="text-sm text-[#637588] dark:text-[#93adc8] mb-1">Altura Promedio</div>
+                                    <div class="text-2xl font-bold text-[#111418] dark:text-white">30 metros</div>
+                                </div>
+                                <div
+                                    class="p-4 rounded-xl bg-background-light dark:bg-[#1a2230] border border-[#e6e8eb] dark:border-[#222f49]">
+                                    <div class="text-sm text-[#637588] dark:text-[#93adc8] mb-1">Edad Estimada</div>
+                                    <div class="text-2xl font-bold text-[#111418] dark:text-white">Hasta 2,800 años
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-1">
+                            <div class="w-full aspect-[4/5] lg:aspect-[3/4] rounded-2xl bg-cover bg-center shadow-2xl overflow-hidden group"
+                                data-alt="Vertical shot of a baobab tree trunk texture and size"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBdiTCqo19C2SzbRRb6645fHYo1dt1rQ5Q9jgt2gt8oTpYFxoZ4utepxcGckkJvQ4mTzFTjctGuO_aZ8oJKmv-wdLNzsDeGq8qRiVjBzNy57ExJ-Owop5XNo5NkoxNCwES5tgQH6gTnv0MJEzSF_2h4Z9ioZOM0WXS-OXq8jPOU896qEGTjx4osXeDWDKwZ0ycTPy87XpSP8cEZQbqXMQburOIGL4gxRVGGRodXYL0DLzHIrU_6jWntFml_MJCIQKVlJVbmkVQZBwI");'>
+                                <div
+                                    class="w-full h-full bg-black/0 group-hover:bg-black/10 transition-colors duration-500">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="py-16 border-b border-[#e6e8eb] dark:border-[#222f49]" id="location">
+                        <div class="flex flex-col gap-6">
+                            <div class="flex items-center justify-between">
+                                <div class="flex flex-col gap-2">
+                                    <h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight">
+                                        Ubicación</h2>
+                                    <p class="text-[#637588] dark:text-[#93adc8]">Menabe, Morondava, Madagascar</p>
+                                </div>
+                                <div
+                                    class="hidden sm:flex items-center gap-2 px-4 py-2 rounded-lg bg-primary/10 text-primary font-medium">
+                                    <span class="material-symbols-outlined">pin_drop</span>
+                                    <span>20.2510° S, 44.4184° E</span>
+                                </div>
+                            </div>
+                            <div
+                                class="relative w-full aspect-video lg:aspect-[21/9] rounded-xl overflow-hidden shadow-lg border border-[#e6e8eb] dark:border-[#222f49] group">
+                                <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                    data-alt="Map showing the location of Avenue of the Baobabs in Madagascar"
+                                    data-location="Madagascar"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCnx8DGbw8GS-1N2K-_gO_sA6BZtWKe_8JVTj7ueYNSysS4Cl2F4N7z0LFMvLaO5i4qBixLYVqVKsovu2kk7yfp3PVbaivcX91P_RDXjaVzugbESxmkYslUkIJT---uRrPwPTZeTRdh8UmmgnmwOBtiuiJT7MPRO1VGN2Hbclr5G8PrQdBCe8rcJAjcW1vl9ITDvOIISL_g48xeq_7rYN7TQmCBHImPiTZP3pEiequRbTx0UQJGgycfKKUZUA11lyImuq6YNyz9q9c");'>
+                                </div>
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-background-dark/80 via-transparent to-transparent flex items-end p-6">
+                                    <div
+                                        class="bg-background-light dark:bg-[#1a2230] p-4 rounded-lg shadow-lg flex items-center gap-4 max-w-sm border border-[#e6e8eb] dark:border-[#222f49]">
+                                        <div
+                                            class="size-12 rounded bg-primary/20 flex items-center justify-center text-primary shrink-0">
+                                            <span class="material-symbols-outlined">map</span>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-bold text-[#111418] dark:text-white">Morondava</h3>
+                                            <p class="text-xs text-[#637588] dark:text-[#93adc8]">Ciudad más cercana
+                                                (20km)</p>
+                                        </div>
+                                        <button
+                                            class="ml-auto size-8 rounded-full bg-primary flex items-center justify-center text-white hover:bg-primary/90">
+                                            <span class="material-symbols-outlined text-sm">near_me</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="py-16 border-b border-[#e6e8eb] dark:border-[#222f49]" id="highlights">
+                        <h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight mb-10">Destacados y
+                            Curiosidades</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div
+                                class="flex flex-col gap-4 p-6 rounded-2xl bg-background-light dark:bg-[#1a2230] border border-[#e6e8eb] dark:border-[#222f49] hover:border-primary/50 transition-colors group md:col-span-2">
+                                <div
+                                    class="size-12 rounded-full bg-[#fdecdb] dark:bg-[#4a3220] flex items-center justify-center text-[#d97706] dark:text-[#fbbf24] mb-2 group-hover:scale-110 transition-transform">
+                                    <span class="material-symbols-outlined">verified</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-[#111418] dark:text-white">Patrimonio</h3>
+                                <p class="text-[#637588] dark:text-[#93adc8] text-sm leading-relaxed">
+                                    Área protegida desde 2007 y Monumento Natural. Un esfuerzo de conservación vital
+                                    para Madagascar.
+                                </p>
+                            </div>
+                            <div
+                                class="flex flex-col gap-4 p-6 rounded-2xl bg-background-light dark:bg-[#1a2230] border border-[#e6e8eb] dark:border-[#222f49] hover:border-primary/50 transition-colors group">
+                                <div
+                                    class="size-12 rounded-full bg-[#dbeafe] dark:bg-[#1e2e4a] flex items-center justify-center text-primary mb-2 group-hover:scale-110 transition-transform">
+                                    <span class="material-symbols-outlined">history</span>
+                                </div>
+                                <h3 class="text-lg font-bold text-[#111418] dark:text-white">Edad</h3>
+                                <p class="text-[#637588] dark:text-[#93adc8] text-sm leading-relaxed">
+                                    Hasta 2,800 años de antigüedad.
+                                </p>
+                            </div>
+                            <div
+                                class="flex flex-col gap-4 p-6 rounded-2xl bg-background-light dark:bg-[#1a2230] border border-[#e6e8eb] dark:border-[#222f49] hover:border-primary/50 transition-colors group">
+                                <div
+                                    class="size-12 rounded-full bg-[#dcfce7] dark:bg-[#143826] flex items-center justify-center text-[#16a34a] dark:text-[#4ade80] mb-2 group-hover:scale-110 transition-transform">
+                                    <span class="material-symbols-outlined">straighten</span>
+                                </div>
+                                <h3 class="text-lg font-bold text-[#111418] dark:text-white">Altura</h3>
+                                <p class="text-[#637588] dark:text-[#93adc8] text-sm leading-relaxed">
+                                    Promedio de 30 metros.
+                                </p>
+                            </div>
+                            <div
+                                class="flex flex-col gap-4 p-6 rounded-2xl bg-background-light dark:bg-[#1a2230] border border-[#e6e8eb] dark:border-[#222f49] hover:border-primary/50 transition-colors group md:col-span-4">
+                                <div class="flex items-start gap-4">
+                                    <div
+                                        class="size-12 rounded-full bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 shrink-0 group-hover:scale-110 transition-transform">
+                                        <span class="material-symbols-outlined">temple_buddhist</span>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-[#111418] dark:text-white mb-2">Significado
+                                            Cultural</h3>
+                                        <p class="text-[#637588] dark:text-[#93adc8] text-sm leading-relaxed">
+                                            Árboles sagrados para la cultura Sakalava. Son respetados como fuente de
+                                            vida y conexión espiritual con los ancestros.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="py-16 border-b border-[#e6e8eb] dark:border-[#222f49]">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+                            <div class="flex flex-col gap-6">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <h3 class="text-2xl font-bold text-[#111418] dark:text-white">Actividades</h3>
+                                    <span class="h-px flex-1 bg-[#e6e8eb] dark:bg-[#222f49]"></span>
+                                </div>
+                                <ul class="flex flex-col gap-4">
+                                    <li class="flex items-start gap-4 group cursor-pointer">
+                                        <div
+                                            class="size-10 rounded-lg bg-background-light dark:bg-[#1a2230] flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors shrink-0">
+                                            <span class="material-symbols-outlined">photo_camera</span>
+                                        </div>
+                                        <div>
+                                            <h4
+                                                class="text-[#111418] dark:text-white font-bold group-hover:text-primary transition-colors">
+                                                Fotografía al Atardecer</h4>
+                                            <p class="text-sm text-[#637588] dark:text-[#93adc8]">Captura las siluetas
+                                                icónicas contra el cielo naranja.</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-4 group cursor-pointer">
+                                        <div
+                                            class="size-10 rounded-lg bg-background-light dark:bg-[#1a2230] flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors shrink-0">
+                                            <span class="material-symbols-outlined">directions_walk</span>
+                                        </div>
+                                        <div>
+                                            <h4
+                                                class="text-[#111418] dark:text-white font-bold group-hover:text-primary transition-colors">
+                                                Paseos por la Aldea</h4>
+                                            <p class="text-sm text-[#637588] dark:text-[#93adc8]">Visita las aldeas
+                                                cercanas para conocer la cultura local.</p>
+                                        </div>
+                                    </li>
+                                    <li class="flex items-start gap-4 group cursor-pointer">
+                                        <div
+                                            class="size-10 rounded-lg bg-background-light dark:bg-[#1a2230] flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors shrink-0">
+                                            <span class="material-symbols-outlined">forest</span>
+                                        </div>
+                                        <div>
+                                            <h4
+                                                class="text-[#111418] dark:text-white font-bold group-hover:text-primary transition-colors">
+                                                Baobab Amoureux</h4>
+                                            <p class="text-sm text-[#637588] dark:text-[#93adc8]">Visita los famosos
+                                                "Baobabs Enamorados" entrelazados.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="flex flex-col gap-6">
+                                <div class="flex items-center gap-3 mb-2">
+                                    <h3 class="text-2xl font-bold text-[#111418] dark:text-white">Gastronomía Local</h3>
+                                    <span class="h-px flex-1 bg-[#e6e8eb] dark:bg-[#222f49]"></span>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="relative h-40 rounded-xl overflow-hidden group"
+                                        data-alt="Close up of ripe baobab fruit showing dry pulp"
+                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBljLSjAA-3Siqd2ET7CXJov244WDaC7ChCq7uzYWsivLiBLUc_l5jjxP9s_57RJB-QHqggOzZtGjntLaIi7GNPiByR3IVWDGmq-0D_rj_2r3J9nKRIlH_L1hDSEAX8VkTVny6u_1MizbNwj9ICTv2PvPfDZvjDM1skQfQ345QCZR4WSoIHaZnW6uznIW5fG1vQTw5FK37DdzZ4a0lKR7U5LqWvnLIvc1WLimJ2H7OBQCZBscdv4OC1wiRf-rTeJCpI7T9j0CVHGD0"); background-size: cover; background-position: center;'>
+                                        <div
+                                            class="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors">
+                                        </div>
+                                        <div class="absolute bottom-3 left-3 text-white font-bold">Fruta de Baobab</div>
+                                    </div>
+                                    <div class="relative h-40 rounded-xl overflow-hidden group"
+                                        data-alt="Dish of Romazava, traditional Malagasy meat stew"
+                                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCDdrCkDXHJmHh8nggOJrWWaTx_7a0uI9IzfGh0O_yqmSUbL0NVMYt0UVSONOxyagiV5Tlai4AvqbPTthvDLQ_Eta3yGhQzMc39wyiazYYWJx0JplXEZwxl0R74i79AGZxn-MsAnHNufgLL3wyMFWUz74dr_lWFgYs7ghJlqNCPXCUekpk96WlFMm8_NqL4nhKKBl0xqvoyUyNfGwZ6cc-vg6dsTu_nedyQyBV6IIjd5ZcFV7fdQ3ljdW8HjdyAJ9QHn1A25NHtIgQ"); background-size: cover; background-position: center;'>
+                                        <div
+                                            class="absolute inset-0 bg-black/40 group-hover:bg-black/30 transition-colors">
+                                        </div>
+                                        <div class="absolute bottom-3 left-3 text-white font-bold">Romazava</div>
+                                    </div>
+                                </div>
+                                <p class="text-sm text-[#637588] dark:text-[#93adc8]">
+                                    Pruebe el jugo hecho de la fruta del Baobab (Bouye), conocido por su sabor ácido y
+                                    cítrico. También es imperdible el Romazava tradicional.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="py-16" id="practical">
+                        <h2 class="text-[#111418] dark:text-white text-3xl font-bold leading-tight mb-8">Información
+                            Práctica</h2>
+                        <div
+                            class="overflow-hidden rounded-xl border border-[#e6e8eb] dark:border-[#222f49] bg-background-light dark:bg-[#1a2230]">
+                            <div
+                                class="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-[#e6e8eb] dark:divide-[#222f49]">
+                                <div class="p-6 md:p-8 flex flex-col gap-4">
+                                    <div class="flex items-center gap-3 text-primary">
+                                        <span class="material-symbols-outlined">payments</span>
+                                        <span class="font-bold uppercase text-xs tracking-wider">Precios</span>
+                                    </div>
+                                    <div>
+                                        <p class="text-lg font-bold text-[#111418] dark:text-white mb-1">Entrada:
+                                            Gratuita</p>
+                                        <p class="text-sm text-[#637588] dark:text-[#93adc8] mb-1">Parking: 2000 Ariary
+                                            malgache</p>
+                                        <p class="text-xs text-[#637588] dark:text-[#93adc8] italic">Nota: se agradecen
+                                            donaciones.</p>
+                                    </div>
+                                </div>
+                                <div class="p-6 md:p-8 flex flex-col gap-4">
+                                    <div class="flex items-center gap-3 text-primary">
+                                        <span class="material-symbols-outlined">schedule</span>
+                                        <span class="font-bold uppercase text-xs tracking-wider">Horarios</span>
+                                    </div>
+                                    <div>
+                                        <p class="text-lg font-bold text-[#111418] dark:text-white mb-1">Abierto 24
+                                            horas</p>
+                                        <p class="text-sm text-[#637588] dark:text-[#93adc8] mb-1">Mejor momento:
+                                            Amanecer y Atardecer</p>
+                                        <p class="text-xs text-[#637588] dark:text-[#93adc8]">Temporada: Mayo a Octubre
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="p-6 md:p-8 flex flex-col gap-4">
+                                    <div class="flex items-center gap-3 text-primary">
+                                        <span class="material-symbols-outlined">room_service</span>
+                                        <span class="font-bold uppercase text-xs tracking-wider">Servicios</span>
+                                    </div>
+                                    <div class="flex flex-col gap-1">
+                                        <div class="flex items-center gap-2">
+                                            <span class="material-symbols-outlined text-sm">check_circle</span>
+                                            <span class="text-sm text-[#111418] dark:text-white">Centro de
+                                                Visitantes</span>
+                                        </div>
+                                        <div class="flex items-center gap-2">
+                                            <span class="material-symbols-outlined text-sm">check_circle</span>
+                                            <span class="text-sm text-[#111418] dark:text-white">Baños Públicos</span>
+                                        </div>
+                                        <div class="flex items-center gap-2">
+                                            <span class="material-symbols-outlined text-sm">check_circle</span>
+                                            <span class="text-sm text-[#111418] dark:text-white">Guía Turístico</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="mt-8 flex flex-col md:flex-row gap-4 items-center justify-between p-6 rounded-xl bg-primary/10 border border-primary/20">
+                            <div class="flex items-center gap-4">
+                                <span class="material-symbols-outlined text-primary text-3xl">lightbulb</span>
+                                <div>
+                                    <h4 class="font-bold text-[#111418] dark:text-white">Consejo Pro</h4>
+                                    <p class="text-sm text-[#637588] dark:text-[#93adc8]">Lleva repelente de mosquitos y
+                                        agua. Las tiendas son limitadas.</p>
+                                </div>
+                            </div>
+                            <button
+                                class="w-full md:w-auto px-6 py-2 bg-primary text-white font-bold rounded-lg hover:bg-primary/90 transition-colors whitespace-nowrap">
+                                Descargar Guía
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <footer
+                class="border-t border-[#e6e8eb] dark:border-[#222f49] bg-background-light dark:bg-[#1a2230] py-12 px-10">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-8 max-w-[1000px] mx-auto">
+                    <div class="flex items-center gap-3">
+                        <div class="size-8 flex items-center justify-center rounded-lg bg-primary/10 text-primary">
+                            <span class="material-symbols-outlined">nature</span>
+                        </div>
+                        <span class="text-[#111418] dark:text-white font-bold text-lg">Avenida de los Baobabs</span>
+                    </div>
+                    <div class="flex gap-8">
+                        <a class="text-[#637588] dark:text-[#93adc8] hover:text-primary text-sm font-medium"
+                            href="#">Privacidad</a>
+                        <a class="text-[#637588] dark:text-[#93adc8] hover:text-primary text-sm font-medium"
+                            href="#">Términos</a>
+                        <a class="text-[#637588] dark:text-[#93adc8] hover:text-primary text-sm font-medium"
+                            href="#">Contacto</a>
+                    </div>
+                    <div class="text-[#637588] dark:text-[#93adc8] text-sm">
+                        © 2023 Madagascar Tourism
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
