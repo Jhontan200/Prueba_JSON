@@ -5,9 +5,38 @@
         "provincia": "Antsiranana (Diego Suárez)",
         "region": "Diana",
         "pais": "Madagascar",
-        "clima": "Tropical seco"
+        "clima": "Tropical seco",
+        "coordenadas": "12.9525° S, 49.1242° E",
+        "ciudadCercana": "Ambilobe (30km)"
     },
     "descripcion": "Un macizo de piedra caliza del Jurásico erosionado que crea un paisaje de agujas afiladas llamadas 'Tsingy'. El parque alberga una de las redes de cuevas más grandes de África y cañones cubiertos de selva tropical.",
+    "estadisticas": {
+        "extension": "182 km²",
+        "antiguedad": "150 Millones",
+        "unidadAntiguedad": "años (Jurásico)"
+    },
+    "imagenes": {
+        "hero": "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+        "detalle": "https://images.unsplash.com/photo-1547113282-273f05814546",
+        "mapa": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff"
+    },
+    "curiosidades": [
+        {
+            "titulo": "Patrimonio Geológico",
+            "texto": "Las formaciones Tsingy son únicas en el mundo, creadas por la erosión hídrica durante milenios.",
+            "icono": "verified"
+        },
+        {
+            "titulo": "Red de Cuevas",
+            "texto": "Posee más de 100 km de pasajes subterráneos mapeados.",
+            "icono": "hourglass_top"
+        },
+        {
+            "titulo": "Biodiversidad",
+            "texto": "Hogar de 11 especies de lémures y decenas de reptiles endémicos.",
+            "icono": "straighten"
+        }
+    ],
     "actividades": [
         "Senderismo por los puentes colgantes sobre los Tsingy",
         "Exploración de la Cueva de los Murciélagos",
@@ -19,40 +48,46 @@
         "especies": [
             "Lémur de cola anillada",
             "Fosa",
-            "Uroplatus (gecko satánico de cola de hoja)"
+            "Uroplatus (gecko satánico)"
         ],
         "flora": [
-            "Árboles Pachypodium (pie de elefante)",
+            "Árboles Pachypodium",
             "Baobabs de Perrier"
         ]
     },
     "gastronomiaSugerida": [
-        "Pescado al coco (estilo costero del norte)",
-        "Ravitoto (hojas de mandioca machacadas con cerdo)",
-        "Frutas exóticas como lichi y mango de la región Diana",
-        "Arroz rojo malgache (Vary gasy)"
+        {
+            "nombre": "Pescado al coco",
+            "descripcion": "Estilo costero del norte con leche de coco fresca.",
+            "foto": "https://images.unsplash.com/photo-1534939561126-755ecf1512f5"
+        },
+        {
+            "nombre": "Ravitoto",
+            "descripcion": "Hojas de mandioca machacadas con cerdo.",
+            "foto": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd"
+        }
     ],
     "precios": {
         "entradaExtranjeros": 45000,
         "entradaNacionales": 5000,
-        "tarifaGuiaObligatorio": "Varía según el circuito (aprox. 30.000 - 60.000 MGA)",
-        "moneda": "Ariary malgache (MGA)"
+        "tarifaGuiaObligatorio": "Aprox. 30.000 - 60.000 MGA",
+        "moneda": "MGA"
     },
     "horarios": {
         "apertura": "07:00",
         "cierre": "16:30",
         "dias": "Lunes a Domingo",
-        "mejorEpoca": "De abril a noviembre (evitar temporada de lluvias por inundaciones en cuevas)"
+        "mejorEpoca": "Abril a Noviembre"
     },
     "logistica": {
-        "dificultad": "Media-Alta (requiere buena condición física)",
+        "dificultad": "Media-Alta",
         "equipoRecomendado": [
-            "Calzado de montaña de suela dura",
+            "Calzado de montaña",
             "Linterna frontal",
             "Mucha agua",
             "Repelente"
         ],
-        "acceso": "Accesible vía la RN6 desde Diego Suárez o Ambanja"
+        "acceso": "Vía RN6 desde Diego Suárez"
     },
     "importanciaCultural": "Las cuevas son sitios sagrados (Fady) para el pueblo Antakarana; se cree que albergan los espíritus de sus antepasados."
 }
