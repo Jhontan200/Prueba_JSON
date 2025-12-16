@@ -1,192 +1,85 @@
 {
-    "configuracion_pagina": {
-        "titulo_pestana": "Reserva Especial de Ankarana",
-        "idioma": "es",
-        "fuentes": [
-            "Be Vietnam Pro",
-            "Noto Sans",
-            "Material Symbols Outlined"
-        ],
-        "colores_tema": {
-            "primary": "#10b981",
-            "primary_dark": "#059669",
-            "background_light": "#f8fafc",
-            "background_dark": "#0f172a"
-        }
-    },
-    "encabezado": {
-        "nombre_reserva": "Reserva de Ankarana",
-        "icono": "forest",
-        "menu_navegacion": [
-            {
-                "texto": "La Reserva",
-                "ancla": "#overview"
-            },
-            {
-                "texto": "Ubicación",
-                "ancla": "#location"
-            },
-            {
-                "texto": "Maravillas",
-                "ancla": "#highlights"
-            },
-            {
-                "texto": "Visita",
-                "ancla": "#practical"
-            }
-        ],
-        "boton_accion": "Planear Aventura"
-    },
-    "hero_section": {
-        "tagline": "Norte de Madagascar: Tierra de los Tsingy",
-        "titulo_principal": "Reserva Especial de Ankarana",
-        "descripcion": "Explora un laberinto de piedra caliza afilada como cuchillos, bosques sagrados y la red de cuevas subterráneas más extensa de África.",
-        "imagen_fondo": "https://lh3.googleusercontent.com/aida-public/AB6AXuDQBk5JqfEXsdRV2gP1jkkAd2yVXMZoZBuiaORaLzNNnzYVv_LXgdzAm86OoSnAtIGEdMjAs5zy9rORXzKQRHHhJsO56fCl9xtPH0vpCN6csB4l13ieNFqb3wy3q5IgllMIQtkFYFlak4vPclK8Qd1e3Zi_m1sRJaKY3qim5tQgb_2oKlzoW3VixBZ8yejjyOHiRVvrJ9iaZCqUyfH1Z8EHlSkTHfUA_EV5VACUh5oNteeuegv53gjOMbuYmC246FtH9gXVsBrPQ3U",
-        "botones": [
-            {
-                "texto": "Guía de Senderos",
-                "icono": "hiking"
-            },
-            {
-                "texto": "Ver Galería",
-                "icono": "photo_library"
-            }
-        ]
-    },
-    "seccion_overview": {
-        "badge": "El Reino de Piedra",
-        "titulo": "Donde la roca se encuentra con la selva.",
-        "parrafos": [
-            "La Reserva Especial de Ankarana es una fortaleza natural de piedra caliza erosionada conocida como Tsingy. Estas formaciones kársticas afiladas crean un paisaje lunar impenetrable en la superficie.",
-            "Bajo la roca, una vasta red de cuevas y ríos subterráneos alberga cocodrilos ciegos y murciélagos. En los cañones, los bosques caducifolios protegen una rica población de lémures coronados y de Sanford."
-        ],
-        "estadisticas": [
-            {
-                "etiqueta": "Extensión",
-                "valor": "18,220",
-                "unidad": "hectáreas",
-                "icono": "area_chart"
-            },
-            {
-                "etiqueta": "Red de Cuevas",
-                "valor": "120+",
-                "unidad": "kilómetros",
-                "icono": "explore"
-            }
-        ],
-        "imagen_destacada": {
-            "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuBdiTCqo19C2SzbRRb6645fHYo1dt1rQ5Q9jgt2gt8oTpYFxoZ4utepxcGckkJvQ4mTzFTjctGuO_aZ8oJKmv-wdLNzsDeGq8qRiVjBzNy57ExJ-Owop5XNo5NkoxNCwES5tgQH6gTnv0MJEzSF_2h4Z9ioZOM0WXS-OXq8jPOU896qEGTjx4osXeDWDKwZ0ycTPy87XpSP8cEZQbqXMQburOIGL4gxRVGGRodXYL0DLzHIrU_6jWntFml_MJCIQKVlJVbmkVQZBwI",
-            "pie": "Tsingy Grises",
-            "subtitulo": "Formaciones del Jurásico"
-        }
-    },
-    "seccion_ubicacion": {
-        "titulo": "Ubicación en el Norte",
-        "region_detalle": "Región de Diana, Distrito de Ambilobe, Madagascar",
-        "coordenadas": "12.9156° S, 49.0967° E",
-        "mapa_visual": {
-            "url_imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuCnx8DGbw8GS-1N2K-_gO_sA6BZtWKe_8JVTj7ueYNSysS4Cl2F4N7z0LFMvLaO5i4qBixLYVqVKsovu2kk7yfp3PVbaivcX91P_RDXjaVzugbESxmkYslUkIJT---uRrPwPTZeTRdh8UmmgnmwOBtiuiJT7MPRO1VGN2Hbclr5G8PrQdBCe8rcJAjcW1vl9ITDvOIISL_g48xeq_7rYN7TQmCBHImPiTZP3pEiequRbTx0UQJGgycfKKUZUA11lyImuq6YNyz9q9c",
-            "poblacion_base": "Ambilobe",
-            "distancia_base": "30km sur"
-        }
-    },
-    "seccion_tesoros_ocultos": {
-        "titulo": "Tesoros Ocultos",
-        "subtitulo": "¿Qué hace a Ankarana un lugar único en el mundo?",
-        "tarjetas": [
-            {
-                "titulo": "Fauna Endémica",
-                "cuerpo": "Hogar de una de las mayores densidades de primates del mundo. Aquí conviven el Lémur Coronado, el Lémur de Sanford y el esquivo Aye-aye nocturno.",
-                "icono": "pets"
-            },
-            {
-                "titulo": "Hidrología",
-                "cuerpo": "Ríos subterráneos que emergen misteriosamente.",
-                "icono": "water_drop"
-            },
-            {
-                "titulo": "Geología",
-                "cuerpo": "Caliza de la era Jurásica (150m años).",
-                "icono": "volcano"
-            },
-            {
-                "titulo": "Santuario Antakarana",
-                "cuerpo": "Las cuevas sirvieron de refugio histórico al pueblo Antakarana durante las guerras tribales del siglo XIX. Hoy son lugares sagrados donde se realizan ceremonias y ofrendas a los ancestros reales.",
-                "icono": "temple_hindu"
-            }
-        ]
-    },
-    "seccion_aventuras": {
-        "titulo": "Aventuras y Actividades",
-        "items": [
-            {
-                "nombre": "Ruta de los Tsingy",
-                "descripcion": "Camina sobre puentes colgantes entre pináculos de roca afilada.",
-                "icono": "landscape"
-            },
-            {
-                "nombre": "Espeleología",
-                "descripcion": "Explora la 'Grotte des Chauves-souris' y sus estalactitas gigantes.",
-                "icono": "flashlight_on"
-            },
-            {
-                "nombre": "Avistamiento de Lémures",
-                "descripcion": "Encuentra especies diurnas y nocturnas en su hábitat natural.",
-                "icono": "visibility"
-            }
-        ]
-    },
-    "seccion_gastronomia": {
-        "titulo": "Gastronomía de la Región",
-        "platos": [
-            {
-                "nombre": "Jugo de Bouye",
-                "descripcion": "Bebida energética hecha del fruto del baobab, común en los mercados de Ambilobe.",
-                "imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuBljLSjAA-3Siqd2ET7CXJov244WDaC7ChCq7uzYWsivLiBLUc_l5jjxP9s_57RJB-QHqggOzZtGjntLaIi7GNPiByR3IVWDGmq-0D_rj_2r3J9nKRIlH_L1hDSEAX8VkTVny6u_1MizbNwj9ICTv2PvPfDZvjDM1skQfQ345QCZR4WSoIHaZnW6uznIW5fG1vQTw5FK37DdzZ4a0lKR7U5LqWvnLIvc1WLimJ2H7OBQCZBscdv4OC1wiRf-rTeJCpI7T9j0CVHGD0"
-            },
-            {
-                "nombre": "Romazava Real",
-                "descripcion": "El plato nacional preparado con carne de cebú y hojas verdes 'brédes'.",
-                "imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuCDdrCkDXHJmHh8nggOJrWWaTx_7a0uI9IzfGh0O_yqmSUbL0NVMYt0UVSONOxyagiV5Tlai4AvqbPTthvDLQ_Eta3yGhQzMc39wyiazYYWJx0JplXEZwxl0R74i79AGZxn-MsAnHNufgLL3wyMFWUz74dr_lWFgYs7ghJlqNCPXCUekpk96WlFMm8_NqL4nhKKBl0xqvoyUyNfGwZ6cc-vg6dsTu_nedyQyBV6IIjd5ZcFV7fdQ3ljdW8HjdyAJ9QHn1A25NHtIgQ"
-            }
-        ]
-    },
-    "seccion_practica": {
-        "titulo": "Información Práctica",
-        "tarifas": [
-            {
-                "concepto": "Entrada Parque",
-                "precio": "65.000 Ar"
-            },
-            {
-                "concepto": "Guía (Día)",
-                "precio": "40.000 Ar+"
-            },
-            {
-                "nota": "Precios sujetos a cambios por MNP"
-            }
-        ],
-        "horarios_clima": {
-            "horario": "6:30 AM - 4:30 PM",
-            "mejor_epoca": "Abril a Noviembre",
-            "clima_aviso": "Evitar época de ciclones"
+    "Lugar": "Reserva Especial de Ankarana",
+    "Ubicacion": "Región de Diana, Distrito de Ambilobe, Madagascar (12.9156° S, 49.0967° E)",
+    "Descripcion": "Explora un laberinto de piedra caliza afilada como cuchillos, bosques sagrados y la red de cuevas subterráneas más extensa de África. La Reserva Especial de Ankarana es una fortaleza natural de piedra caliza erosionada conocida como Tsingy. Estas formaciones kársticas afiladas crean un paisaje lunar impenetrable en la superficie. Bajo la roca, una vasta red de cuevas y ríos subterráneos alberga cocodrilos ciegos y murciélagos. En los cañones, los bosques caducifolios protegen una rica población de lémures coronados y de Sanford.",
+    "Extension": "18,220 hectáreas",
+    "RedDeCuevas": "120+ kilómetros",
+    "Maravillas": [
+        {
+            "Titulo": "Fauna Endémica",
+            "Descripcion": "Hogar de una de las mayores densidades de primates del mundo. Aquí conviven el Lémur Coronado, el Lémur de Sanford y el esquivo Aye-aye nocturno."
         },
-        "requisitos": [
-            "Guía Obligatorio",
-            "Calzado Robusto",
-            "Linterna Frontal"
-        ],
-        "cultura_fady": {
-            "titulo": "Cultura 'Fady' (Tabú)",
-            "descripcion": "Es vital respetar los tabúes locales: ciertas áreas de las cuevas son sagradas y está prohibido entrar con sombreros o comportarse irrespetuosamente."
+        {
+            "Titulo": "Hidrología",
+            "Descripcion": "Ríos subterráneos que emergen misteriosamente."
+        },
+        {
+            "Titulo": "Geología",
+            "Descripcion": "Caliza de la era Jurásica (150m años)."
+        },
+        {
+            "Titulo": "Santuario Antakarana",
+            "Descripcion": "Las cuevas sirvieron de refugio histórico al pueblo Antakarana durante las guerras tribales del siglo XIX. Hoy son lugares sagrados donde se realizan ceremonias y ofrendas a los ancestros reales."
         }
+    ],
+    "Actividades": [
+        {
+            "Titulo": "Ruta de los Tsingy",
+            "Descripcion": "Camina sobre puentes colgantes entre pináculos de roca afilada."
+        },
+        {
+            "Titulo": "Espeleología",
+            "Descripcion": "Explora la 'Grotte des Chauves-souris' y sus estalactitas gigantes."
+        },
+        {
+            "Titulo": "Avistamiento de Lémures",
+            "Descripcion": "Encuentra especies diurnas y nocturnas en su hábitat natural."
+        }
+    ],
+    "Gastronomia": [
+        {
+            "Titulo": "Jugo de Bouye",
+            "Descripcion": "Bebida energética hecha del fruto del baobab, común en los mercados de Ambilobe.",
+            "Imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuBljLSjAA-3Siqd2ET7CXJov244WDaC7ChCq7uzYWsivLiBLUc_l5jjxP9s_57RJB-QHqggOzZtGjntLaIi7GNPiByR3IVWDGmq-0D_rj_2r3J9nKRIlH_L1hDSEAX8VkTVny6u_1MizbNwj9ICTv2PvPfDZvjDM1skQfQ345QCZR4WSoIHaZnW6uznIW5fG1vQTw5FK37DdzZ4a0lKR7U5LqWvnLIvc1WLimJ2H7OBQCZBscdv4OC1wiRf-rTeJCpI7T9j0CVHGD0",
+            "Alt": "Baobab fruit used in local juices"
+        },
+        {
+            "Titulo": "Romazava Real",
+            "Descripcion": "El plato nacional preparado con carne de cebú y hojas verdes 'brédes'.",
+            "Imagen": "https://lh3.googleusercontent.com/aida-public/AB6AXuCDdrCkDXHJmHh8nggOJrWWaTx_7a0uI9IzfGh0O_yqmSUbL0NVMYt0UVSONOxyagiV5Tlai4AvqbPTthvDLQ_Eta3yGhQzMc39wyiazYYWJx0JplXEZwxl0R74i79AGZxn-MsAnHNufgLL3wyMFWUz74dr_lWFgYs7ghJlqNCPXCUekpk96WlFMm8_NqL4nhKKBl0xqvoyUyNfGwZ6cc-vg6dsTu_nedyQyBV6IIjd5ZcFV7fdQ3ljdW8HjdyAJ9QHn1A25NHtIgQ",
+            "Alt": "Traditional Romazava stew"
+        }
+    ],
+    "Tarifas": {
+        "EntradaParque": "65.000 Ar",
+        "GuiaDia": "40.000 Ar+",
+        "Nota": "Precios sujetos a cambios por MNP."
     },
-    "pie_de_pagina": {
-        "copyright": "© 2023 Madagascar National Parks",
-        "enlaces": [
-            "Privacidad",
-            "Reglamento",
-            "Contacto"
-        ]
-    }
+    "Horarios": "6:30 AM - 4:30 PM",
+    "MejorEpoca": "Abril a Noviembre",
+    "NotaClima": "Evitar época de ciclones",
+    "Requisitos": [
+        "Guía Obligatorio",
+        "Calzado Robusto",
+        "Linterna Frontal"
+    ],
+    "CulturaFady": "Es vital respetar los tabúes locales: ciertas áreas de las cuevas son sagradas y está prohibido entrar con sombreros o comportarse irrespetuosamente.",
+    "Footer": "© 2023 Madagascar National Parks",
+    "Imagenes": [
+        {
+            "Descripcion": "Imagen principal (hero background)",
+            "URL": "https://lh3.googleusercontent.com/aida-public/AB6AXuDQBk5JqfEXsdRV2gP1jkkAd2yVXMZoZBuiaORaLzNNnzYVv_LXgdzAm86OoSnAtIGEdMjAs5zy9rORXzKQRHHhJsO56fCl9xtPH0vpCN6csB4l13ieNFqb3wy3q5IgllMIQtkFYFlak4vPclK8Qd1e3Zi_m1sRJaKY3qim5tQgb_2oKlzoW3VixBZ8yejjyOHiRVvrJ9iaZCqUyfH1Z8EHlSkTHfUA_EV5VACUh5oNteeuegv53gjOMbuYmC246FtH9gXVsBrPQ3U",
+            "Alt": ""
+        },
+        {
+            "Descripcion": "Formaciones de Tsingy",
+            "URL": "https://lh3.googleusercontent.com/aida-public/AB6AXuBdiTCqo19C2SzbRRb6645fHYo1dt1rQ5Q9jgt2gt8oTpYFxoZ4utepxcGckkJvQ4mTzFTjctGuO_aZ8oJKmv-wdLNzsDeGq8qRiVjBzNy57ExJ-Owop5XNo5NkoxNCwES5tgQH6gTnv0MJEzSF_2h4Z9ioZOM0WXS-OXq8jPOU896qEGTjx4osXeDWDKwZ0ycTPy87XpSP8cEZQbqXMQburOIGL4gxRVGGRodXYL0DLzHIrU_6jWntFml_MJCIQKVlJVbmkVQZBwI",
+            "Alt": "Tsingy rock formations in Ankarana"
+        },
+        {
+            "Descripcion": "Mapa de la ubicación",
+            "URL": "https://lh3.googleusercontent.com/aida-public/AB6AXuCnx8DGbw8GS-1N2K-_gO_sA6BZtWKe_8JVTj7ueYNSysS4Cl2F4N7z0LFMvLaO5i4qBixLYVqVKsovu2kk7yfp3PVbaivcX91P_RDXjaVzugbESxmkYslUkIJT---uRrPwPTZeTRdh8UmmgnmwOBtiuiJT7MPRO1VGN2Hbclr5G8PrQdBCe8rcJAjcW1vl9ITDvOIISL_g48xeq_7rYN7TQmCBHImPiTZP3pEiequRbTx0UQJGgycfKKUZUA11lyImuq6YNyz9q9c",
+            "Alt": "Map showing the location of Ankarana Reserve"
+        }
+    ]
 }
