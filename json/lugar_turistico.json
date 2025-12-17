@@ -69,11 +69,11 @@
         {
             "Descripcion": "Imagen principal (hero background)",
             "URL": "https://raw.githubusercontent.com/Jhontan200/Prueba_JSON/main/imagenes/Ankarana-National-Park.webp",
-            "Alt": ""
+            "Alt": "Paisaje de Ankarana"
         },
         {
             "Descripcion": "Formaciones de Tsingy",
-            "URL": "https://lh3.googleusercontent.com/aida-public/AB6AXuBdiTCqo19C2SzbRRb6645fHYo1dt1rQ5Q9jgt2gt8oTpYFxoZ4utepxcGckkJvQ4mTzFTjctGuO_aZ8oJKmv-wdLNzsDeGq8qRiVjBzNy57ExJ-Owop5XNo5NkoxNCwES5tgQH6gTnv0MJEzSF_2h4Z9ioZOM0WXS-OXq8jPOU896qEGTjx4osXeDWDKwZ0ycTPy87XpSP8cEZQbqXMQburOIGL4gxRVGGRodXYL0DLzHIrU_6jWntFml_MJCIQKVlJVbmkVQZBwI",
+            "URL": "https://raw.githubusercontent.com/Jhontan200/Prueba_JSON/main/imagenes/tsingy.jpg",
             "Alt": "Tsingy rock formations in Ankarana"
         },
         {
